@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;    
+        box-sizing: border-box;
+        overflow: auto;
+    }
+    
+    h1{
+        text-align: center;
+        padding: 3vh;
+        color: #bb2222;
+    }
+    
+    .conteudos{
+        width: 100%;  
+        text-align: center;
+    }
+    
+    #selector{
+        margin: 0 auto;
+      
+    }
+    
+    .final{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5vh;
+        background-color:#bb2222;
+        color: aliceblue;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    table{
+        border: 0.5vh solid black;
+        background: #793131;   
+    }
+    
+    option{
+        width: 4vh;
+    }
+    
+    #botaoConverte{
+        width: 15vh;
+        height: 4vh;
+        border-radius: 8%;
+        text-align: center;
+        background: #793131;  
+        color: aliceblue;
+    }
+    
+    #botao{
+        text-align: center;
+        padding: 2vh;
+    }
+    
+    button:hover{
+        transform: scale(1.2);
+    }
+    
+    thead{
+        text-align: center;
+    }

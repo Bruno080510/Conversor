@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>converter graus</title>
+    <link rel="stylesheet" href="style.css" media="screen" />
+
+</head>
+
+<body>
+    <h1>Conversor de Temperatura</h1>
+    <div class="conteudos">
+        <label for="graus">Indique um numero</label>
+        <input type="number" name="graus" id="valor">
+
+        <select id="selector">
+            <option value="0" selected disabled>Escolha uma opção</option>
+            <option value="c">Celsius</option>
+            <option value="f">Farenheit</option>
+            <option value="k">Kelvin</option>
+            <option value="r">Rankine</option>
+        </select>
+
+    </div>
+    <div id="botao">
+        <button type="submit" id="botaoConverte">Converte</button>
+    </div>
+
+    <!-- Tabela de resposta -->
+    <div class="final">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>°C</th>
+                    <th>F</th>
+                    <th>K</th>
+                    <th>R</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
