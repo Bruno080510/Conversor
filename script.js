@@ -33,6 +33,7 @@ document.querySelector('#botaoConverte').addEventListener('click', function () {
     }
 
     if (seleciona === 'r') {
+      var Rank = informado
       var celsius = ((informado - 491.67) / 1.8).toFixed(2);
       var fare = ((informado - 459.67)).toFixed(2);
       var kaka = ((informado / 1.8)).toFixed(2);
