@@ -7,20 +7,20 @@ document.querySelector('#botaoConverte').addEventListener('click', function () {
   let corpo = document.querySelector('tbody');
 
   if ((nonumber != "") && (naoenumber != 0)) {
+
     informado = parseFloat(informado);
+    if (seleciona === 'f') {
+      var celsius = ((informado - 32) / 1.8).toFixed(2);
+      var fare = informado;
+      var kaka = ((informado + 459.67) / 1.8).toFixed(2);
+      var Rank = ((informado + 459.67)).toFixed(2);
+    }
 
     if (seleciona === 'c') {
       var celsius = informado;
       var fare = ((informado * 1.8) + 32).toFixed(2);
       var kaka = ((informado + 273)).toFixed(2);
       var Rank = ((informado + 273.15) * 1.8).toFixed(2);
-    }
-
-    if (seleciona === 'f') {
-      var celsius = ((informado - 32) / 1.8).toFixed(2);
-      var fare = informado;
-      var kaka = ((informado + 459.67) / 1.8).toFixed(2);
-      var Rank = ((informado + 459.67)).toFixed(2);
     }
 
     if (informado > 0) {
